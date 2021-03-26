@@ -1,0 +1,20 @@
+{
+  "name": "web_departamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build .",
+    "dev:clean-dev": "vuepress dev . --no-cache",
+    "docs:dev": "vuepress dev .",
+    "docs:eject-theme": "vuepress eject-hope ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.13.1"
+  }
+}

@@ -1,3 +1,10 @@
+---
+title: Intro
+icon: info
+sidebar: false
+comment: false
+---
+
 # ¿Qué hacemos?
 
 En esta página podrás conocer un poco más las actividades que desarrolla el Departamento de Informática y comunicaciones del [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/).
