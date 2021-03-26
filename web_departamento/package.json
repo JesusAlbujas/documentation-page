@@ -1,7 +1,7 @@
 {
   "name": "web_departamento",
   "version": "1.0.0",
-  "description": "",
+  "description": "Departamento de Informática y Comunicaciones. CIFP Virgen de Gracia.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,19 @@
     "docs:dev": "vuepress dev .",
     "docs:eject-theme": "vuepress eject-hope ."
   },
+  "repository": {
+    "type": "git", 
+    "url": "git+https://github.com/igijon/inf_com_dep_CIFP_VG.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.8.2",
     "vuepress-theme-hope": "^1.13.1"
+  },
+  "homepage": "https://github.com/igijon/inf_com_dep_CIFP_VG#readme",
+  "dependencies": {
+    "vuepress": "^1.8.2"
   }
 }
