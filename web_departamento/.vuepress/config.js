@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Departamento de Informática y Comunicaciones",
+  title: "Informática y Comunicaciones",
   description: "CIFP Virgen de Gracia",
 
   dest: "./dist",
