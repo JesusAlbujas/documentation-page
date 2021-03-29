@@ -32,7 +32,7 @@ comment: false
 </p>
 
 
-En este ciclo formativo de grado superior aprenderás a:
+En este ciclo formativo de Grado Superior aprenderás a:
 
 ::: tip Objetivos
 Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.
