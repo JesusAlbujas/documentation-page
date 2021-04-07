@@ -4,7 +4,7 @@ icon: read
 # This is the title of the article
 title: IFCD0110 - Confección y publicación de páginas web
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-24
 # A page can only have one category
@@ -16,8 +16,6 @@ tag:
   - FP Empleo
   - IFCD0110
 
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
@@ -27,8 +25,10 @@ comment: false
 ---
 
 <p style="text-align:center;">
-  <img src="/assets/img/Cartel-IFCD0110_2020.jpeg" />
+  <img src="/assets/img/Cartel-IFCD0110_2020.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
 
 ## **Ficha completa del certificado de profesionalidad**
 

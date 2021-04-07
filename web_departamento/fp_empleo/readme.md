@@ -4,7 +4,7 @@ icon: read
 # This is the title of the article
 title: Formación Profesional para el Empleo
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-22
 category: FP Empleo
@@ -13,10 +13,9 @@ tag:
   - Formacion Profesional
   - FP
   - FP Empleo
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
+sticky: true
 # You can customize the footer
 footer: FP Empleo
 comment: false
@@ -25,8 +24,10 @@ comment: false
 Como Centro Integrado de Formación Profesional (CIFP) además de la amplia oferta en [Formación Profesional Reglada](/fp_reglada/), en ciclos formativos de Grado Superior y de Grado Medio, también ofrecemos cursos de [Formación Profesional para el Empleo](/fp_empleo/).
 
 <p style="text-align:center;">
-  <img src="/assets/img/empleo.png" />
+  <img src="/assets/img/empleo.png" width="100%"/>
 </p>
+
+<!-- more -->
 
 ## **¿Sistema de Formación Profesional para el Empleo?**
 

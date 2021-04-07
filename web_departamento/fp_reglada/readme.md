@@ -4,13 +4,13 @@ icon: read
 # This is the title of the article
 title: Formación Profesional Reglada
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-22
 category: FP Reglada
 # A page can have multiple tags
 tag:
-  - Formación Profesional
+  - Formacion Profesional
   - FP
   - FP Reglada
 # this page is sticky in article list
@@ -34,3 +34,5 @@ Porque con el proyecto Erasmus, puedes realizar el periodo de prácticas en la c
 <p style="text-align:center;">
   <img src="/assets/img/logo_TITULACIONES.png" width="30%" height="30%"/>
 </p>
+
+<!-- more -->

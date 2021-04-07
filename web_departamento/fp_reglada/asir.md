@@ -4,7 +4,7 @@ icon: read
 # This is the title of the article
 title: Técnico Superior en Administración de Sistemas Informáticos en Red
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-22
 # A page can only have one category
@@ -16,8 +16,6 @@ tag:
   - FP Reglada
   - Grado Superior
   - ASIR
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
@@ -28,8 +26,10 @@ comment: false
 ## Introducción
 
 <p style="text-align:center;">
-  <img src="/assets/img/asir.jpeg" />
+  <img src="/assets/img/asir.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
 
 En este ciclo formativo de grado superior aprenderás a:
 

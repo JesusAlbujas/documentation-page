@@ -4,7 +4,7 @@ icon: read
 # This is the title of the article
 title: Técnico Superior en Administración de Sistemas Informáticos en Red (e-Learning)
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-22
 # A page can only have one category
@@ -16,8 +16,6 @@ tag:
   - FP Reglada
   - Grado Superior
   - ASIR-E
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
@@ -29,8 +27,10 @@ comment: false
 ## Introducción
 
 <p style="text-align:center;">
-  <img src="/assets/img/asir.jpeg" />
+  <img src="/assets/img/asir.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
 
 ::: warning Nota
 Este ciclo formativo imparte sus enseñanzas a distancia mediante el uso de la plataforma **Educamos**, desde la cual podrás consultar todo el material y realizar las actividades que se te propongan. Complementarás tu educación con la asistencia puntual al centro para la realización de los exámenes presenciales.
