@@ -14,7 +14,7 @@ heroImage: /assets/icon/logo02.png
 heroImageStyle: {
   maxWidth: '200px'
 }
-heroText: Departamento de Informática y Comunicaciones
+heroText: Departamento de Informática
 tagline: CIFP Virgen de Gracia
 project:
 
@@ -33,10 +33,10 @@ project:
     desc: Repositorios del departamento
     link: https://github.com/CIFP-Virgen-de-Gracia
 
-  - type: article
-    name: Miembros
-    desc: Equipo
-    link: /members/
+  - type: link
+    name: CIFP Virgen de Gracia
+    desc: Centro Integrado de Formación Profesional
+    link: https://cifpvirgendegracia.com/
 
 footer: CIFP Virgen de Gracia
 comment: false

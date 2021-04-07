@@ -4,20 +4,18 @@ icon: read
 # This is the title of the article
 title: Técnico en Sistemas Microinformáticos y Redes
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-22
 # A page can only have one category
 category: FP Reglada
 # A page can have multiple tags
 tag:
-  - Formación Profesional
+  - Formacion Profesional
   - FP
   - FP Reglada
   - Grado Medio
   - SMR
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
@@ -28,8 +26,10 @@ comment: false
 ## Introducción
 
 <p style="text-align:center;">
-  <img src="/assets/img/smr.jpeg" />
+  <img src="/assets/img/smr.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
 
 En este ciclo formativo de grado medio aprenderás a:
 

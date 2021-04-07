@@ -1,10 +1,10 @@
 ---
 home: true
-icon: home
+icon: folder
 title: Proyectos de innovación
 # heroImage: /logo.svg
 heroText: Proyectos de innovación
-tagline: Departamento de Informática y Comunicaciones. CIFP Virgen de Gracia.
+tagline: Informática y Comunicaciones. CIFP Virgen de Gracia.
 # action:
   #- text: How to Use 💡
   #  link: /guide/
@@ -16,27 +16,12 @@ tagline: Departamento de Informática y Comunicaciones. CIFP Virgen de Gracia.
 features:
   - title: Comunica 💬
     details: Descripción
-    link: /proyectos/comunica/
+    link: .
 
   - title: Coworking 🧰
     details: Descripción
-    link: /proyectos/coworking/
-
-  - title: Proyecto 3
-    details: Descripción
     link: .
 
-  - title: Proyecto 4 📝
-    details: Descripción
-    link: .
-
-  - title: Proyecto 5 🔐
-    details: Descripción
-    link: .
-
-  - title: Proyecto 6 🎨
-    details: Descripción
-    link: .
 comment: false
 ---
 

@@ -4,7 +4,7 @@ icon: read
 # This is the title of the article
 title: Ciberseguridad en Entornos de las Tecnologías de la Información
 # Set author
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 # Set writing time
 time: 2021-03-23
 # A page can only have one category
@@ -15,9 +15,6 @@ tag:
   - FP
   - Especializacion FP
   - Ciberseguridad
-
-# this page is sticky in article list
-sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
@@ -28,8 +25,10 @@ comment: false
 ## Características
 
 <p style="text-align:center;">
-  <img src="/assets/img/ciberseguridad2.jpeg" />
+  <img src="/assets/img/ciberseguridad2.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
 
 **Familia profesional:** Informática y comunicaciones.
 

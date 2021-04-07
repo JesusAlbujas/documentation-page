@@ -29,7 +29,7 @@ module.exports = config({
     logo: "/assets/icon/logo03.png",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
-    author: "Departamento de Informática y Comunicaciones",
+    author: "Informática y Comunicaciones",
     //repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
 
     nav: [
@@ -83,7 +83,7 @@ module.exports = config({
         icon: "creative",
         items: [
           {text: "Innovacion", link: "/proyectos/innovacion/", icon: "folder"},
-          {text: "Coworking-DAW2", link: "/proyectos/alumnado/", icon: "folder"}
+          {text: "Coworking-DAW2", link: "/proyectos/daw2/", icon: "folder"}
         ]
       },
       {
@@ -100,11 +100,6 @@ module.exports = config({
         text: "Contacto",
         icon: "community",
         link: "mailto:informatica@cifpvirgendegracia.com",
-      },
-      {
-        text: "CIFP Virgen de Gracia",
-        link: "https://cifpvirgendegracia.com/",
-        icon: "news",
       },
     ],
 
@@ -132,6 +127,14 @@ module.exports = config({
           prefix: "/fp_empleo/",
           children: ["pag_web"],
         },
+      ],
+      "/proyectos/": [
+        {
+          title: "Proyectos",
+          icon: "creative",
+          prefix: "/proyectos/",
+          children: ["innovacion", "daw2"]
+        }
       ],
     },
 

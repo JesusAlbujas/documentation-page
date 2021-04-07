@@ -1,13 +1,14 @@
 ---
 icon: card
 title: Proyectos
-author: Departamento de Informática y Comunicaciones
+author: Informática y Comunicaciones
 time: 2021-03-25
 category: Proyectos
 tag:
   - Proyectos
 sticky: true
 star: true
+article: true
 footer: Proyectos
 comment: false
 ---
@@ -16,5 +17,7 @@ En esta sección podrás ver tanto los proyectos de innovación en los que está
 
 
 <p style="text-align:center;">
-  <img src="/assets/img/proyectos.jpeg"/>
+  <img src="/assets/img/proyectos.jpeg" width="100%"/>
 </p>
+
+<!-- more -->
