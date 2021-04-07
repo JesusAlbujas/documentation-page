@@ -9,7 +9,7 @@ bgImageStyle: {
 }
 home: true
 icon: home
-title: Home
+title: Departamento de Informática
 heroImage: /assets/icon/logo02.png
 heroImageStyle: {
   maxWidth: '200px'
