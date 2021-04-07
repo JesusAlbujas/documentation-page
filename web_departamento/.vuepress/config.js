@@ -140,6 +140,7 @@ module.exports = config({
 
     blog: {
       intro: "/intro/",
+      name: "Informática",
       avatar: "/assets/icon/logoCortado.jpeg",
       sidebarDisplay: "mobile",
       links: {
