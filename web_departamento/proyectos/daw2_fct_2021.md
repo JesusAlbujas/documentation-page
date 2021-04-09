@@ -21,4 +21,6 @@ La aplicación se encarga de la gestión de la **Formación en Centros de Trabaj
 Para la realización de dichas prácticas es necesario que se gestione bastante documentación y esta aplicación se encarga de la relación de los alumnos con las empresas donde se llevará a cabo la formación y de la gestión de la documentación correspondiente.
 
 [Aplicación desplegada en Netlify](https://gestionpapeleofct.netlify.app)
+
+<img alt="Repositorio" src="/assets/icon/github-logo.png" width="25px"/>[ Repositorio del proyecto](https://github.com/CIFP-Virgen-de-Gracia/GestionPapeleoFCT-BACKEND)
 <!-- more -->

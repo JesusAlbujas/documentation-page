@@ -2,7 +2,7 @@
 icon: card
 title: Bolsa de trabajo
 author: Informática y Comunicaciones
-time: 2021-04-7
+time: 2021-04-9
 category: Proyectos
 tag:
   - Proyectos
@@ -23,4 +23,6 @@ La aplicación se encarga de la gestión de una bolsa de trabajo con el alumnado
 </p>
 
 [Aplicación desplegada en Netlify](https://bolsatrabajovdg.netlify.app/)
+
+<img alt="Repositorio" src="/assets/icon/github-logo.png" width="25px"/>[ Repositorio del proyecto](https://github.com/CIFP-Virgen-de-Gracia/bolsa_trabajo_front)
 <!-- more -->
