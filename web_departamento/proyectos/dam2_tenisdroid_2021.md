@@ -7,6 +7,10 @@ category: Proyectos
 tag:
   - Proyectos
   - Android
+  - Firebase
+  - Flutter
+  - Git
+  - Github
 sticky: true
 star: true
 article: true

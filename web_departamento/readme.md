@@ -20,7 +20,7 @@ project:
 
   - type: project
     name: Proyectos
-    desc: 'Distintos cursos: Coworking, ...'
+    desc: 'Distintos cursos: Coworking ...'
     link: /proyectos/
 
   - type: book
