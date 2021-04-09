@@ -14,7 +14,7 @@ tagline: Departamento de Informática. CIFP Virgen de Gracia.
   #  link: /
 
 features:
-  - title: FCT 📂
+  - title: FCT 📋
     details: 2021 - Gestión de FCT
     link: /proyectos/daw2_fct_2021/
 
