@@ -82,9 +82,10 @@ module.exports = config({
         text: "Proyectos",
         icon: "creative",
         items: [
-          {text: "Innovacion", link: "/proyectos/innovacion/", icon: "folder"},
-          {text: "Coworking-DAW2", link: "/proyectos/daw2/", icon: "folder"},
           {text: "DAM2", link: "/proyectos/dam2/", icon: "folder"},
+          {text: "Coworking-DAW2", link: "/proyectos/daw2/", icon: "folder"},
+          {text: "Departamento", link: "/proyectos/departamento/", icon: "folder"},
+
         ]
       },
       {
@@ -134,7 +135,7 @@ module.exports = config({
           title: "Proyectos",
           icon: "creative",
           prefix: "/proyectos/",
-          children: ["innovacion", "daw2", "dam2"]
+          children: ["dam2", "daw2", "departamento"]
         }
       ],
     },

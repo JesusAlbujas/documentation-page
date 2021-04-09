@@ -7,6 +7,14 @@ category: Proyectos
 tag:
   - Proyectos
   - Coworking
+  - Laravel
+  - Angular
+  - Bootstrap
+  - Typescript
+  - Git
+  - Github
+  - Scrum
+  - Dockers
 sticky: true
 star: true
 article: true
@@ -14,7 +22,7 @@ footer: Proyectos
 comment: false
 ---
 
-Este proyecto ha sido realizado por alumnos del segundo ciclo de [DAW](/fp_reglada/daw/) como proyecto coworking siguiendo una metodología de trabajo **Scrum** y utilizando tecnologías como **Laravel*** del lado del servidor, **Angular, Bootstrap, Typescript**, ... del lado del cliente, **Git, Github, Dockers**, ...
+Este proyecto ha sido realizado por alumnos del segundo ciclo de [DAW](/fp_reglada/daw/) como proyecto coworking siguiendo una metodología de trabajo **Scrum** y utilizando tecnologías como **Laravel*** del lado del servidor, **Angular, Bootstrap, Typescript**, ... del lado del cliente, **Git, Github, Dockers** ...
 
 La aplicación se encarga de la gestión de la **Formación en Centros de Trabajo** que el alumnado de los cursos de 2º de los ciclos formativos llevan a cabo al finalizar el curso.
 
