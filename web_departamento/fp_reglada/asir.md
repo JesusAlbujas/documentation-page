@@ -69,9 +69,19 @@ Serás capaz de:
 
 ### **Implantación de sistemas operativos**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/iso_asir.jpeg" width="100%"/>
+</p>
+
+En este módulo aprenderás a configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la reglamentación vigente.
 
 ### **Planificación y administración de redes**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/rl_smr.jpeg" width="100%"/>
+</p>
+
+En este módulo aprenderás todo lo relativo a las redes de ordenadores, diseño, implementación y mantenimiento, centrándonos en el uso de dispositivos CISCO por la gran relevancia que tienen estos en los sistemas de las empresas.
 
 ### **Fundamentos de hardware**
 
@@ -81,12 +91,39 @@ Serás capaz de:
 
 ### **Formación y orientación laboral**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/fol_smr.jpeg" width="100%"/>
+</p>
+
+En este módulo conseguirás las competencias y las habilidades necesarias para enfrentarte al mundo laboral. Estarás informado sobre tus derechos y tus deberes: conocimiento de salarios, nóminas, cómo funciona la SS ...
+
 ### **Administración de sistemas operativos**
 ### **Servicios de red e internet**
 ### **Implantación de aplicaciones web**
 ### **Administración de sistemas gestores de bases de datos**
 ### **Seguridad y alta disponibilidad**
 ### **Empresa e iniciativa emprendedora**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/eie_smr.jpeg" width="100%"/>
+</p>
+
+Este módulo pretende formate para desarrollar la iniciativa en el ámbito empresarial tanto hacia el autoempleo como hacia la asunción de responsabilidades y funciones en el empleo por cuenta ajena y el fomento de la participación en la vida social, cultural y económica, con una actitud solidaria, crítica y responsable.
+
 ### **Formación en centros de trabajo**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/fct_smr.jpeg" width="100%"/>
+</p>
+
+Este módulo se desarrolla al finalizar los estudios del ciclo formativo y se lleva a cabo gracias a la colaboración de las empresas ya que el alumno completa su formación con un periodo en dichas empresas, conociendo la realidad de la empresa y pudiendo poner en práctica los conocimientos adquiridos en el aula.
+
 ### **Proyecto de administración de sistemas informáticos en red**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/proyectofinal.png" width="100%"/>
+</p>
+
+Este módulo busca complementar la formación de otras asignaturas en las funciones de análisis del contexto, diseño, organización y planificación.
+
+Tiene como objetivo aumentar las capacidades de análisis y búsqueda, aprender a diseñar soluciones efectivas a problemas reales, saber coordinarse y ganar autonomía y confianza en uno mismo.
