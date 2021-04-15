@@ -85,6 +85,18 @@ Nuestro centro también tiene licencia completa.
 [Kotlin](https://kotlinlang.org/) es un lenguaje de programación de tipado estático que corre sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript.
 **Nuestro centro es centro educativo de referencia en el uso de esta tecnología para el desarrollo móvil.**
 
+## [DBeaver](https://dbeaver.com/features/)
+
+<p style="text-align:center;">
+  <a href="https://dbeaver.com/features/" target="_blank"><img src="/assets/img/tecnologias/dbeaver.png" width="100%"/></a>
+</p>
+
+[DBeaver](https://dbeaver.com/features/) es uno de los mejores programas para manejar **BBDD**, desde crear diagramas ER, consultas ... manejo de BBDD **relacionales y NoSQL**.
+
+Es [multiplataforma](https://dbeaver.com/download/enterprise/) y soporta un amplio abanico de bases de datos como puedes ver [aquí](https://dbeaver.com/databases/).
+
+Podemos acceder a los manuales [aquí](https://dbeaver.com/docs/wiki/).
+
 ## [OpenWebinars](https://openwebinars.net/academia/)
 
 <p style="text-align:center;">
