@@ -85,9 +85,26 @@ En este módulo aprenderás todo lo relativo a las redes de ordenadores, diseño
 
 ### **Fundamentos de hardware**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/fw_asir.jpeg" width="100%"/>
+</p>
+
+Aprenderás a configurar equipos microinformáticos, instalar software de propósito general, ejecutar procedimientos para recuperar el software base del equipo e implantar hardware específico de centros de proceso de datos, siempre cumpliendo las normas de prevención de riesgos y de protección ambienta.
 ### **Gestión de bases de datos**
 
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/gbd_asir.jpeg" width="100%"/>
+</p>
+
+Aprenderás a diseñar correctamente bases de datos, crearlas, mantenerlas y hacer consultas de todo tipo.
+
 ### **Lenguajes de marcas y sistemas de gestión de información**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/lm_asir.jpeg" width="100%"/>
+</p>
+
+Aprenderás a utilizar lenguajes de marcas que afectan a la interfaz de una página web HTML y CSS, su lógica utilizando JavaScript e intercambio de datos XML, JSON, DTD, XQUERY, XPATH...
 
 ### **Formación y orientación laboral**
 
@@ -98,10 +115,45 @@ En este módulo aprenderás todo lo relativo a las redes de ordenadores, diseño
 En este módulo conseguirás las competencias y las habilidades necesarias para enfrentarte al mundo laboral. Estarás informado sobre tus derechos y tus deberes: conocimiento de salarios, nóminas, cómo funciona la SS ...
 
 ### **Administración de sistemas operativos**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/aso_asir.png" width="100%"/>
+</p>
+
+En este módulo aprenderás a desempeñar funciones de administración de sistemas operativos y aplicaciones de un sistema informático y alcanzarás la formación necesaria en la administración y explotación de servidores.
+
 ### **Servicios de red e internet**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/sr_smr.jpeg" width="100%"/>
+</p>
+
+Aprenderás a configurar distintos servicios en red, por ejemplo, DNS, DHCP, web, correo electrónico, trasnferencia de archivos, vídeo, audio o mensajería instantánea, entre otros.
+
 ### **Implantación de aplicaciones web**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/iaw_asir.jpeg" width="100%"/>
+</p>
+
+Aprenderas a desarrollar aplicaciones web utilizando el lenguaje de programación PHP, y los conocimientos de bases de datos y lenguaje de marcas adquiridos en otros módulos.
+
 ### **Administración de sistemas gestores de bases de datos**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_asir/asgbd_asir.jpeg" width="100%"/>
+</p>
+
+Aprenderás a instalar SQL Server, crear usuarios y asignarles permisos. Realizarás programas en Transact SQL que facilitan el trabajo sobre la base de dato.
+
 ### **Seguridad y alta disponibilidad**
+
+<p style="text-align:center;">
+  <img src="/assets/img/modulos_smr/si_smr.jpeg" width="100%"/>
+</p>
+
+Conocerás la importancia de la seguridad informática y cómo conseguirla a través de talleres de Ciberseguridad.
+
 ### **Empresa e iniciativa emprendedora**
 
 <p style="text-align:center;">
