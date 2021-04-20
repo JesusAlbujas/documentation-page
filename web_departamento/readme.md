@@ -5,7 +5,7 @@ bgImageStyle: {
   #border: '1px solid white',
   border-bottom: '0.5px solid #999',
   border-top: '0.5px solid #999',
-  maxHeight: '260px'
+  maxHeight: '265px'
 }
 home: true
 icon: home

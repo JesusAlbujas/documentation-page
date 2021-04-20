@@ -19,7 +19,7 @@ comment: false
 Este proyecto ha sido realizado por alumnos del segundo ciclo de [DAM](/fp_reglada/dam/) utilizando [Unity](https://unity.com/es) ...
 
 <p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sNF0Gj-JYiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/sNF0Gj-JYiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 <img alt="Repositorio" src="/assets/icon/github-logo.png" width="25px"/> [ Repositorio del proyecto](https://github.com/CIFP-Virgen-de-Gracia/PlatformGame)
