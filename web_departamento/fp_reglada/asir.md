@@ -141,7 +141,7 @@ Aprenderas a desarrollar aplicaciones web utilizando el lenguaje de programació
 ### **Administración de sistemas gestores de bases de datos**
 
 <p style="text-align:center;">
-  <img src="/assets/img/modulos_asir/asgbd_asir.jpeg" width="100%"/>
+  <img src="/assets/img/modulos_asir/asgbd_asir.png" width="100%"/>
 </p>
 
 Aprenderás a instalar SQL Server, crear usuarios y asignarles permisos. Realizarás programas en Transact SQL que facilitan el trabajo sobre la base de dato.
