@@ -1,9 +1,9 @@
 ---
 home: true
 icon: folder
-title: Proyectos del departamento
+title: Otros proyectos
 # heroImage: /logo.svg
-heroText: Proyectos del departamento
+heroText: Otros proyectos
 tagline: Informática y Comunicaciones. CIFP Virgen de Gracia.
 # action:
   #- text: How to Use 💡
