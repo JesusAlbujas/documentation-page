@@ -1,7 +1,7 @@
 ---
 home: true
 icon: folder
-title: Proyectos de coworking - DAW2
+title: Proyectos de DAW2
 # heroImage: /logo.svg
 heroText: Proyectos de coworking - DAW2
 tagline: Departamento de Informática. CIFP Virgen de Gracia.

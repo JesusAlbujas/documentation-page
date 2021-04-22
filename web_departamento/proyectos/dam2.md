@@ -1,7 +1,7 @@
 ---
 home: true
 icon: folder
-title: Proyectos - DAM2
+title: Proyectos de DAM2
 # heroImage: /logo.svg
 heroText: Proyectos - DAM2
 tagline: Departamento de Informática. CIFP Virgen de Gracia.
