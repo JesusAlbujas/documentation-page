@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos.jpeg
 icon: card
 title: Las aventuras del zorrito Kreeper
 author: Informática y Comunicaciones

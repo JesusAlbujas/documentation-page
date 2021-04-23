@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos/naturalezaviva.jpg
 icon: card
 title: Naturaleza Viva
 author: Informática y Comunicaciones

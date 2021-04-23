@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos/bolsa_trabajo_captura.jpg
 icon: card
 title: Bolsa de trabajo
 author: Informática y Comunicaciones

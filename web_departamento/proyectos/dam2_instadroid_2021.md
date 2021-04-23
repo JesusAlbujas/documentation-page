@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos/instadroid_2.jpeg
 icon: card
 title: Instadroid
 author: Informática y Comunicaciones

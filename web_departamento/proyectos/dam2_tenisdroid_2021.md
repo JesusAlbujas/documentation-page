@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos/tenisdroid.jpg
 icon: card
 title: Tenisdroid
 author: Informática y Comunicaciones

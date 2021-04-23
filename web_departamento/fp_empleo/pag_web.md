@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/Cartel-IFCD0110_2020.jpeg
 # This is the icon of the page
 icon: read
 # This is the title of the article

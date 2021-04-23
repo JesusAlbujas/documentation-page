@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos/rueda_captura.jpg
 icon: card
 title: Rueda de coches
 author: Informática y Comunicaciones
