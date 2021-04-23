@@ -37,7 +37,7 @@ features:
     details: 2017 - Gestión de documentación del profesorado
     link: /proyectos/daw2_getty_2017/
   
-    - title: Aptiza 📅
+  - title: Aptiza 📅
     details: 2016 - Reserva de aulas
     link: /proyectos/daw2_aptiza_2016/
 comment: false
