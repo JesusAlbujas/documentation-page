@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/icon/logo03.png
 blog: true
 bgImage: /assets/img/Principal4.jpeg
 bgImageStyle: {

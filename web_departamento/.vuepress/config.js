@@ -240,4 +240,10 @@ module.exports = config({
       },
     },
   },
+
+  plugins: [
+    [
+      "@mr-hope/seo",
+    ],
+  ],
 });
