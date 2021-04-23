@@ -1,15 +1,12 @@
 ---
-# This is the icon of the page
+meta: 
+  - property: "og:image"
+    content: /assets/img/smr.jpeg
 icon: read
-# This is the title of the article
 title: Técnico en Sistemas Microinformáticos y Redes
-# Set author
 author: Informática y Comunicaciones
-# Set writing time
 time: 2021-03-22
-# A page can only have one category
 category: FP Reglada
-# A page can have multiple tags
 tag:
   - Formacion Profesional
   - FP

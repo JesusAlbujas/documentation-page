@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos.jpeg
 icon: card
 title: Platform Game
 author: Informática y Comunicaciones

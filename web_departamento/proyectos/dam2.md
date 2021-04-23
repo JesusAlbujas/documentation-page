@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos.jpeg
 home: true
 icon: folder
 title: Proyectos de DAM2

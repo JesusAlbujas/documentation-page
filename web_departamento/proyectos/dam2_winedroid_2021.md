@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos.jpeg
 icon: card
 title: Winedroid
 author: Informática y Comunicaciones

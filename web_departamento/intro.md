@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/icon/logo03.png
 title: Intro
 icon: info
 sidebar: false

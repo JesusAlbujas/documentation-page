@@ -1,4 +1,7 @@
 ---
+meta: 
+  - property: "og:image"
+    content: /assets/img/proyectos.jpeg
 icon: card
 title: Skill para Alexa
 author: Informática y Comunicaciones
