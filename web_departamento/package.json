@@ -11,13 +11,14 @@
     "docs:eject-theme": "vuepress eject-hope ."
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git+https://github.com/igijon/inf_com_dep_CIFP_VG.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mr-hope/vuepress-plugin-seo": "^1.14.5",
     "vuepress": "^1.8.2",
     "vuepress-theme-hope": "^1.13.1"
   },
