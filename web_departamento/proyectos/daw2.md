@@ -28,5 +28,17 @@ features:
   - title: Rueda de coches 🚙
     details: 2021 - Generador de una rueda de coches
     link: /proyectos/daw2_rueda_coches_2021/
+
+  - title: Aspace 🔈
+    details: 2018 - Comunicación a partir de pictogramas
+    link: /proyectos/daw2_aspace_2018/
+
+  - title: Getty 📄
+    details: 2017 - Gestión de documentación del profesorado
+    link: /proyectos/daw2_getty_2017/
+  
+    - title: Aptiza 📅
+    details: 2016 - Reserva de aulas
+    link: /proyectos/daw2_aptiza_2016/
 comment: false
 ---
