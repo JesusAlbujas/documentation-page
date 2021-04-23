@@ -1,4 +1,7 @@
 ---
+meta:
+  - property: "og:image"
+    content: /assets/img/equipo_docente.jpeg
 title: Miembros
 icon: group
 sidebar: false
