@@ -1,4 +1,7 @@
 ---
+meta:
+  - property: "og:image"
+    content: /assets/img/tecnologias/github.png
 icon: animation
 title: Técnologías con las que trabajamos y acuerdos realizados.
 author: Departamento de Informática y Comunicaciones
