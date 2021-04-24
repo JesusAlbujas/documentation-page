@@ -8,13 +8,6 @@ title: Proyectos de DAW2
 # heroImage: /logo.svg
 heroText: Proyectos de coworking - DAW2
 tagline: Departamento de Informática. CIFP Virgen de Gracia.
-# action:
-  #- text: How to Use 💡
-  #  link: /guide/
-  #  type: primary
-
-  #- text: Blog homepage 🏠
-  #  link: /
 
 features:
   - title: FCT 📋
