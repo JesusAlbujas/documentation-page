@@ -22,6 +22,14 @@ features:
     details: 2021 - Generador de una rueda de coches
     link: /proyectos/daw2_rueda_coches_2021/
 
+  - title: Chaparrillo 🌳
+    details: 2020 - Colaboración con el Centro de Investigación Agroambiental "El Chaparrillo"
+    link: /proyectos/daw2_chaparrillo_2020/
+
+  - title: TPV 🛒
+    details: 2019 - Colaboración con departamento de Comercio.
+    link: /proyectos/daw2_tpv_2019/
+
   - title: Aspace 🔈
     details: 2018 - Comunicación a partir de pictogramas
     link: /proyectos/daw2_aspace_2018/
