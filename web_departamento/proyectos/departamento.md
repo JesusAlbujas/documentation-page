@@ -36,6 +36,10 @@ features:
   - title: Web del Departamento 💻 
     details: Desarrollo de la web del departamento.
     link: /proyectos/departamento_web/
+
+  - title: CLMSkills 2019 💻 
+    details: Jornadas abiertas
+    link: https://www.youtube.com/watch?v=t7ChHVX_8Ms
 comment: false
 ---
 
