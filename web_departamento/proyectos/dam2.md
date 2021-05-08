@@ -49,5 +49,23 @@ features:
     details: 2021 - Juego desarrollado con Unity
     link: /proyectos/dam2_kreeper_2021/
 
+  - title: RutApp 🔦 
+    details: 2019 - Aplicación Android 
+    link: https://www.youtube.com/watch?v=ET5S8DVhpi8
+
+  - title: Save the world 🎮 
+    details: 2019 - Juego desarrollado con Unity
+    link: https://www.youtube.com/watch?v=WxcUg73M_qc
+    
+  - title: Zombietombs 🎮 
+    details: 2019 - Juego desarrollado con Unity
+    link: https://www.youtube.com/watch?v=QGCM9bKUOzY
+
+  - title: APP IFP Virgen de Gracia 📔 
+    details: 2019 - Aplicación Android
+    link: https://www.youtube.com/watch?v=oD5MV48Rxns
+  
+  
+
 comment: false
 ---

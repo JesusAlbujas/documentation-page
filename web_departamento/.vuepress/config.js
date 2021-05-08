@@ -82,6 +82,7 @@ module.exports = config({
         text: "Proyectos",
         icon: "creative",
         items: [
+          {text: "SMR2", link:"/proyectos/smr2/", icon: "folder"},
           {text: "DAM2", link: "/proyectos/dam2/", icon: "folder"},
           {text: "DAW2", link: "/proyectos/daw2/", icon: "folder"},
           {text: "Proyectos de innovación", link: "/proyectos/innovacion/", icon: "launch"},
