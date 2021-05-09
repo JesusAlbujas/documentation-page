@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/grupos_trabajo/javascript.png
-  - name: "twitter:image"
-    content: /assets/img/proyectos/grupos_trabajo/javascript.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/grupos_trabajo/javascript.png
 icon: card
 title: Desarrollo y Despliegue de Apps Multiplataforma basadas en JS
 author: Informática y Comunicaciones

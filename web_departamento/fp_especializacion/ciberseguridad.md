@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/ciberseguridad2.jpeg
-  - name: "twitter:image"
-    content: /assets/img/ciberseguridad2.jpeg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/ciberseguridad2.jpeg
 # This is the icon of the page
 icon: read
 # This is the title of the article

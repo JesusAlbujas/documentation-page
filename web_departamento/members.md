@@ -2,8 +2,8 @@
 meta:
   - property: "og:image"
     content: /assets/img/equipo_docente.jpeg
-  - name: "twitter:image"
-    content: /assets/img/equipo_docente.jpeg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/equipo_docente.jpeg
 title: Miembros
 icon: group
 sidebar: false

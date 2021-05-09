@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/daw.png
-  - name: "twitter:image"
-    content: /assets/img/daw.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/daw.png
 # This is the icon of the page
 icon: read
 # This is the title of the article

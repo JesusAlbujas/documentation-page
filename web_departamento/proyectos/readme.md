@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos.jpeg
-  - name: "twitter:image"
-    content: /assets/img/proyectos.jpeg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos.jpeg
 icon: card
 title: Proyectos
 author: Informática y Comunicaciones

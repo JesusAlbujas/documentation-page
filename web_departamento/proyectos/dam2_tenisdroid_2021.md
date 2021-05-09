@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/tenisdroid.jpg
-  - name: "twitter:image"
-    content: /assets/img/proyectos/tenisdroid.jpg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/tenisdroid.jpg
 icon: card
 title: Tenisdroid
 author: Informática y Comunicaciones

@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/icon/logo03.png
-  - name: "twitter:image"
-    content: /assets/icon/logo03.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/icon/logo03.png
 title: Intro
 icon: info
 sidebar: false

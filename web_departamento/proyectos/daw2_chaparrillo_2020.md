@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_chaparrillo/Principal.png
-  - name: "twitter:image"
-    content: /assets/img/proyectos/daw2_chaparrillo/Principal.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/daw2_chaparrillo/Principal.png
 icon: card
 title: Chaparrillo
 author: Informática y Comunicaciones

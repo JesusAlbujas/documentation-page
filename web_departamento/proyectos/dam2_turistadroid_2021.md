@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/turistdroid_3.png
-  - name: "twitter:image"
-    content: /assets/img/proyectos/turistdroid_3.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/turistdroid_3.png
 icon: card
 title: Turistadroid
 author: Informática y Comunicaciones
