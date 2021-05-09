@@ -22,12 +22,6 @@ module.exports = config({
     [
       "script",
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
-    ],
-    [
-      "meta",
-      {
-        name: 'twitter:card', content:'/assets/img/modulos_daw/si_daw.jpeg'
-      }
     ]
   ],
 
