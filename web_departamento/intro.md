@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/icon/logo03.png
+  - property: "twitter:image"
+    content: /assets/icon/logo03.png
 title: Intro
 icon: info
 sidebar: false

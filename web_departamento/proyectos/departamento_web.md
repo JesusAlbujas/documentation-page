@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/vuepress.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/vuepress.png
 icon: card
 title: Web del Departamento
 author: Informática y Comunicaciones

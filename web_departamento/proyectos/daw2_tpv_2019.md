@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_tpv/Principal.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/daw2_tpv/Principal.png
 icon: card
 title: TPV
 author: Informática y Comunicaciones

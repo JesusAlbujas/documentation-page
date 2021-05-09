@@ -2,6 +2,8 @@
 meta:
   - property: "og:image"
     content: /assets/img/equipo_docente.jpeg
+  - property: "twitter:image"
+    content: /assets/img/equipo_docente.jpeg
 title: Miembros
 icon: group
 sidebar: false
@@ -36,7 +38,7 @@ Este departamento lo formamos:
 |Profesor|SAI #3|Tutor 1º SMR|||
 |José Alberto|García Sánchez|JEFE DE ESTUDIOS ADJ|||
 |Diego|Córdoba Aguirre|Tutor 2º DAW|||
-|Inmaculada|Gijón Cardos||[igijoninf@cifpvirgendegracia.com](mailto:igijoninf@cifpvirgendegracia.com)|<p style="text-align:center;"><a href="https://github.com/igijon" target="_blank"><img src="/assets/icon/github-logo.png" width="25px"/></a><a href="https://twitter.com/InmaculadaGijn1" target="_blank"><img src="/assets/icon/twitter-logo.png" width="25px"/></a></p>|
+|Inmaculada|Gijón Cardos||[igijoninf@cifpvirgendegracia.com](mailto:igijoninf@cifpvirgendegracia.com)|<p style="text-align:center;"><a href="https://igijon.netlify.app" target="_blank"><img src="/assets/icon/web-logo.png" width="25px"/></a><a href="https://github.com/igijon" target="_blank"><img src="/assets/icon/github-logo.png" width="25px"/></a><a href="https://twitter.com/InmaculadaGijn1" target="_blank"><img src="/assets/icon/twitter-logo.png" width="25px"/></a></p>|
 |Gema|Valentín López|Tutora 2º SMR|[gema.valentin@cifpvirgendegracia.com](mailto:gema.valentin@cifpvirgendegracia.com)||
 |Águeda María de|Gregorio Morena||||
 |Israel|Aganzo Boue||||
