@@ -138,7 +138,7 @@ module.exports = config({
           title: "Proyectos",
           icon: "creative",
           prefix: "/proyectos/",
-          children: ["dam2", "daw2", "innovacion", "departamento"]
+          children: ["smr2", "dam2", "daw2", "innovacion", "grupos_trabajo", "departamento"]
         }
       ],
     },
