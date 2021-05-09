@@ -3,7 +3,7 @@ meta:
   - property: "og:image"
     content: /assets/img/logo_TITULACIONES.png
   - name: "twitter:image:src"
-    content: https://informaticacifpvg.netlify.app/assets/img/logo_TITULACIONES.png
+    content: /assets/img/logo_TITULACIONES.png
 # This is the icon of the page
 icon: read
 # This is the title of the article
