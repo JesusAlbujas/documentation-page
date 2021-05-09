@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos.jpeg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos.jpeg
 home: true
 icon: folder

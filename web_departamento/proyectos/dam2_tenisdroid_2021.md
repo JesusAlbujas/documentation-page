@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/tenisdroid.jpg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/tenisdroid.jpg
 icon: card
 title: Tenisdroid

@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/comunica.jpg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/comunica.jpg
 icon: card
 title: Proyecto de innovación Comunica

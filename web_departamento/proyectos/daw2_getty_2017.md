@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_getty/Inicio.png
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/daw2_getty/Inicio.png
 icon: card
 title: Getty

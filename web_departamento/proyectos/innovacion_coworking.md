@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/agile_1.jpg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/agile_1.jpg
 icon: card
 title: Proyecto de innovación Agile Development & DevOps

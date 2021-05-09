@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/ciberseguridad2.jpeg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/ciberseguridad2.jpeg
 # This is the icon of the page
 icon: read

@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_aspace/Login.png
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/daw2_aspace/Login.png
 icon: card
 title: Aspace
