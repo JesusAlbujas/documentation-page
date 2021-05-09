@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/smr.jpeg
+  - property: "twitter:image"
+    content: /assets/img/smr.jpeg
 icon: read
 title: Técnico en Sistemas Microinformáticos y Redes
 author: Informática y Comunicaciones

@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/grupos_trabajo/ansible.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/grupos_trabajo/ansible.png
 icon: card
 title: Ansible
 author: Informática y Comunicaciones

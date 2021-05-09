@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos.jpeg
+  - property: "twitter:image"
+    content: /assets/img/proyectos.jpeg
 icon: card
 title: Dungeon's Shadows
 author: Informática y Comunicaciones

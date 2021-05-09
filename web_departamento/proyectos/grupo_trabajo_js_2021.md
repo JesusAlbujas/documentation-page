@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/grupos_trabajo/javascript.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/grupos_trabajo/javascript.png
 icon: card
 title: Desarrollo y Despliegue de Apps Multiplataforma basadas en JS
 author: Informática y Comunicaciones

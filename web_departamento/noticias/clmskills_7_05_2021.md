@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/icon/logo03.png
+  - property: "twitter:image"
+    content: /assets/icon/logo03.png
 icon: read
 title: CLMSkills 2021
 # Set author

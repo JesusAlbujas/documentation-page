@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/ConvocatoriaCursosEspecializacion.jpeg
+  - property: "twitter:image"
+    content: /assets/img/ConvocatoriaCursosEspecializacion.jpeg
 # This is the icon of the page
 icon: read
 # This is the title of the article

@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_aptiza/Reservas2.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/daw2_aptiza/Reservas2.png
 icon: card
 title: Aptiza
 author: Informática y Comunicaciones

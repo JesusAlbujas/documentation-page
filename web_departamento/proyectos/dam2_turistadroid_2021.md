@@ -2,6 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/turistdroid_3.png
+  - property: "twitter:image"
+    content: /assets/img/proyectos/turistdroid_3.png
 icon: card
 title: Turistadroid
 author: Informática y Comunicaciones
