@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/naturalezaviva.jpg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/naturalezaviva.jpg
 icon: card
 title: Naturaleza Viva

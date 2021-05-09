@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_tpv/Principal.png
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/proyectos/daw2_tpv/Principal.png
 icon: card
 title: TPV

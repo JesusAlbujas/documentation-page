@@ -2,7 +2,7 @@
 meta: 
   - property: "og:image"
     content: /assets/img/dam.jpeg
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/dam.jpeg
 # This is the icon of the page
 icon: read

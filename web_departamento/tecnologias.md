@@ -2,7 +2,7 @@
 meta:
   - property: "og:image"
     content: /assets/img/tecnologias/github.png
-  - property: "twitter:image"
+  - name: "twitter:image"
     content: /assets/img/tecnologias/github.png
 icon: animation
 title: Técnologías con las que trabajamos y acuerdos realizados.
