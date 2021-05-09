@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/instadroid_2.jpeg
-  - name: "twitter:image"
-    content: /assets/img/proyectos/instadroid_2.jpeg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/instadroid_2.jpeg
 icon: card
 title: Instadroid
 author: Informática y Comunicaciones

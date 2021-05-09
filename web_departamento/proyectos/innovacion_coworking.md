@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/agile_1.jpg
-  - name: "twitter:image"
-    content: /assets/img/proyectos/agile_1.jpg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/agile_1.jpg
 icon: card
 title: Proyecto de innovación Agile Development & DevOps
 author: Informática y Comunicaciones

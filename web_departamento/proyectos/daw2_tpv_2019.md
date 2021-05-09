@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_tpv/Principal.png
-  - name: "twitter:image"
-    content: /assets/img/proyectos/daw2_tpv/Principal.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/daw2_tpv/Principal.png
 icon: card
 title: TPV
 author: Informática y Comunicaciones

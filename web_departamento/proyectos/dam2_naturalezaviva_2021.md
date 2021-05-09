@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/naturalezaviva.jpg
-  - name: "twitter:image"
-    content: /assets/img/proyectos/naturalezaviva.jpg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/naturalezaviva.jpg
 icon: card
 title: Naturaleza Viva
 author: Informática y Comunicaciones

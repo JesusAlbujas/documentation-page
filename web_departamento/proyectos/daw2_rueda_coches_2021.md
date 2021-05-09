@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/rueda_captura.jpg
-  - name: "twitter:image"
-    content: /assets/img/proyectos/rueda_captura.jpg
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/rueda_captura.jpg
 icon: card
 title: Rueda de coches
 author: Informática y Comunicaciones

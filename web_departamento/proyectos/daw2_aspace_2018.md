@@ -2,8 +2,8 @@
 meta: 
   - property: "og:image"
     content: /assets/img/proyectos/daw2_aspace/Login.png
-  - name: "twitter:image"
-    content: /assets/img/proyectos/daw2_aspace/Login.png
+  - name: "twitter:image:src"
+    content: https://informaticacifpvg.netlify.app/assets/img/proyectos/daw2_aspace/Login.png
 icon: card
 title: Aspace
 author: Informática y Comunicaciones
