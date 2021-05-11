@@ -28,9 +28,14 @@ sidebar: false
 ---
 
 <p style="text-align:center;">
-  <img src="https://i2.wp.com/cifpvirgendegracia.com/wp-content/uploads/2021/05/LOGO.jpg?w=681&ssl=1" width="100%"/>
+  <img src="/assets/img/noticias/daniel_skills.jpeg" width="100%"/>
 </p>
 
 Ayer, día 6 de mayo se llevó a cabo un nuevo campeonato en Talavera de la Reina (Toledo) por la modalidad de **Desarrollo Web**. Muchas gracias y enhorabuena a nuestro competidor **Daniel Sánchez Checa** y a su tutor **Fernando D. Gómez Aranzabe** por el trabajo realizado.
 
 <!-- more -->
+
+<p style="text-align:center;">
+  <img src="https://i2.wp.com/cifpvirgendegracia.com/wp-content/uploads/2021/05/LOGO.jpg?w=681&ssl=1" width="100%"/>
+</p>
+
