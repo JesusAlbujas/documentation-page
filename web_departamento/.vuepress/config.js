@@ -27,7 +27,7 @@ module.exports = config({
 
   themeConfig: {
     logo: "/assets/icon/logo03.png",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    //hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
     author: "Informática y Comunicaciones",
     //repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
@@ -85,6 +85,7 @@ module.exports = config({
           {text: "SMR2", link:"/proyectos/smr2/", icon: "folder"},
           {text: "DAM2", link: "/proyectos/dam2/", icon: "folder"},
           {text: "DAW2", link: "/proyectos/daw2/", icon: "folder"},
+          {text: "ASIR2", link: "/proyectos/asir2/", icon: "folder"},
           {text: "Proyectos de innovación", link: "/proyectos/innovacion/", icon: "launch"},
           {text: "Grupos de trabajo", link:"/proyectos/grupos_trabajo/", icon: "launch"},
           {text: "Otros proyectos", link: "/proyectos/departamento/", icon: "folder"}
@@ -138,7 +139,7 @@ module.exports = config({
           title: "Proyectos",
           icon: "creative",
           prefix: "/proyectos/",
-          children: ["smr2", "dam2", "daw2", "innovacion", "grupos_trabajo", "departamento"]
+          children: ["smr2", "dam2", "daw2", "asir2", "innovacion", "grupos_trabajo", "departamento"]
         }
       ],
     },

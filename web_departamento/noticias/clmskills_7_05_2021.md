@@ -10,7 +10,7 @@ title: CLMSkills 2021
 author: Informática y Comunicaciones
 # Set writing time
 time: 2021-05-07
-category: Proyectos
+category: Noticias
 # A page can have multiple tags
 tag:
   - Formacion Profesional
