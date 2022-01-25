@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_devwebinars_student,devwebinars.student,model_devwebinars_student,base.group_user,1,1,1,1
+access_devwebinars_teacher,devwebinars.teacher,model_devwebinars_teacher,base.group_user,1,1,1,1
+access_devwebinars_course,devwebinars.course,model_devwebinars_course,base.group_user,1,1,1,1
+access_devwebinars_technology,devwebinars.technology,model_devwebinars_technology,base.group_user,1,1,1,1
+access_devwebinars_classroom,devwebinars.classroom,model_devwebinars_classroom,base.group_user,1,1,1,1
+

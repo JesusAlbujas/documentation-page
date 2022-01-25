@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record id='student05936482K' model='devwebinars.student'>
+            <field name='name'>Alvaro</field>
+            <field name='dni'>05936482K</field>
+            <field name='birth_year'>1999
+            </field>
+        </record>
+        <record id='student05936254L' model='devwebinars.student'>
+            <field name='name'>Chema</field>
+            <field name='dni'>05936254L</field>
+            <field name='birth_year'>1994
+            </field>
+        </record>
+        <record id='student05632589D' model='devwebinars.student'>
+            <field name='name'>Jorge</field>
+            <field name='dni'>05632589D</field>
+            <field name='birth_year'>2000
+            </field>
+        </record>
+        <record id='student05236589L' model='devwebinars.student'>
+            <field name='name'>Tamara</field>
+            <field name='dni'>05236589L</field>
+            <field name='birth_year'>1998
+            </field>
+        </record>
+        <record id='student05241569K' model='devwebinars.student'>
+        <field name='name'>Almudena</field>
+        <field name='dni'>05241569K</field>
+        <field name='birth_year'>1996
+        </field>
+    </data>
+</odoo>

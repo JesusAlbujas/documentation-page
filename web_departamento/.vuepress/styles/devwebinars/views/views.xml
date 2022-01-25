@@ -1,0 +1,396 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <!-- Vistas TREE -->
+        <record model="ir.ui.view" id="devwebinars.course_list">
+            <field name="name">devwebinars.course list</field>
+            <field name="model">devwebinars.course</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="classroom"/>
+                    <field name="technology"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.student_list">
+            <field name="name">devwebinars.student list</field>
+            <field name="model">devwebinars.student</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="dni"/>
+                    <field name="name"/>
+                    <field name="birth_year"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.teacher_list">
+            <field name="name">devwebinars.teacher list</field>
+            <field name="model">devwebinars.teacher</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="dni"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- actions opening views on models -->
+
+        <record model="ir.actions.act_window" id="devwebinars.action_course_window">
+            <field name="name">Course</field>
+            <field name="res_model">devwebinars.course</field>
+            <field name="view_mode">tree,form,kanban,calendar</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="devwebinars.action_student_window">
+            <field name="name">Student</field>
+            <field name="res_model">devwebinars.student</field>
+            <field name="view_mode">tree,form,kanban</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="devwebinars.action_teacher_window">
+            <field name="name">Teacher</field>
+            <field name="res_model">devwebinars.teacher</field>
+            <field name="view_mode">tree,form,kanban</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="devwebinars.action_technology_window">
+            <field name="name">Technology</field>
+            <field name="res_model">devwebinars.technology</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="devwebinars.action_classroom_window">
+            <field name="name">Classroom</field>
+            <field name="res_model">devwebinars.classroom</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <!-- Vistas FORM -->
+        <record model="ir.ui.view" id="devwebinars.student_form">
+            <field name="name">devwebinars.student form</field>
+            <field name="model">devwebinars.student</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <field name="photo" widget="image"/>
+                        <group>
+                            <field name="name"/>
+                            <field name="dni"/>
+                            <field name="birth_year"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.classroom_form">
+            <field name="name">devwebinars.classroom form</field>
+            <field name="model">devwebinars.classroom</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.technology_form">
+            <field name="name">devwebinars.technology form</field>
+            <field name="model">devwebinars.technology</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.teacher_form">
+            <field name="name">devwebinars.teacher form</field>
+            <field name="model">devwebinars.teacher</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <field name="photo" widget="image"/>
+                        <group>
+                            <field name="name"/>
+                            <field name="dni"/>
+
+                        </group>
+                        <notebook>
+                            <page string="Technologies">
+                                <field name="technology"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.course_form">
+            <field name="name">devwebinars.course form</field>
+            <field name="model">devwebinars.course</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="is_presencial"/>
+                                <field name="classroom"
+                                attrs="{'invisible':[('is_presencial','=',False)],
+                                            'required':[('is_presencial','=',True)]}"/>
+                            </group>
+                            <group>
+                                <field name="start_date"/>
+                                <field name="end_date"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Technology">
+                                <field name="technology"/>
+                            </page>
+                        </notebook>
+                        <notebook>
+                            <page string="Teachers">
+                                <field name="teacher"/>
+                            </page>
+                        </notebook>
+                        <notebook>
+                            <page string="Students">
+                                <field name="students"/>
+                            </page>
+                        </notebook>
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- Vistas kanban -->
+        <record model="ir.ui.view" id="devwebinars.student_kanban">
+            <field name="name">devwebinars.student kanban</field>
+            <field name="model">devwebinars.student</field>
+            <field name="arch" type="xml">
+                <kanban default_group_by="birth_year" on_create="quick_create"
+                        quick_create_view="devwebinars.quick_create_student_form">
+                    <field name="id"></field>
+                    <field name="birth_year"></field>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.birth_year.raw_value)}}
+                            oe_kanban_global_click o_kanban_record_has_image_fill">
+                                <a type="open">
+                                    <img width="150" style="padding:5px" class="oe_kanban_image"
+                                         t-att-src="kanban_image('devwebinars.student', 'photo', record.id.raw_value)"
+                                         alt="student image"/>
+                                </a>
+                                <div t-attf-class="oe_kanban_content">
+                                    <h2>
+                                        <a type="edit">
+                                            <field name="name"></field>
+                                        </a>
+                                    </h2>
+                                    <h4>
+                                        <a type="edit">
+                                            <field name="dni"></field>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.teacher_kanban">
+            <field name="name">devwebinars.teacher kanban</field>
+            <field name="model">devwebinars.teacher</field>
+            <field name="arch" type="xml">
+                <kanban quick_create_view="devwebinars.quick_create_student_form">
+                    <field name="id"></field>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click o_kanban_record_has_image_fill">
+                                <a type="open">
+                                    <img width="150" style="padding:5px" class="oe_kanban_image"
+                                         t-att-src="kanban_image('devwebinars.teacher', 'photo', record.id.raw_value)"
+                                         alt="teacher image"/>
+                                </a>
+                                <div t-attf-class="oe_kanban_content">
+                                    <h2>
+                                        <a type="edit">
+                                            <field name="name"></field>
+                                        </a>
+                                    </h2>
+                                    <h4>
+                                        <a type="edit">
+                                            <field name="dni"></field>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+
+
+
+        <record model="ir.ui.view" id="devwebinars.course_kanban">
+            <field name="name">devwebinars.course kanban</field>
+            <field name="model">devwebinars.course</field>
+            <field name="arch" type="xml">
+                  <kanban default_group_by="classroom" on_create="quick_create"
+                        quick_create_view="devwebinars.quick_create_course_form">
+                    <field name="classroom"></field>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.classroom.raw_value)}}
+                            oe_kanban_global_click o_kanban_record_has_image_fill">
+                                <div t-attf-class="oe_kanban_content">
+                                    <h4>
+                                        <a type="edit">
+                                            <field name="name"></field>
+
+                                        </a>
+                                    </h4>
+                                     <h6>
+                                        <a type="edit">
+                                            <field name="technology"></field>
+                                        </a>
+                                    </h6>
+                                     <ul>
+                                        <li>Classroom:
+                                            <field name="classroom"></field>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>Teachers:
+                                            <field name="teacher"></field>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+
+        <!-- VISTAS SEARCH -->
+        <record model="ir.ui.view" id="devwebinars.student_search">
+            <field name="name">devwebinars.student search</field>
+            <field name="model">devwebinars.student</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="dni"/>
+                    <field name="birth_year"/>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.teacher_search">
+            <field name="name">devwebinars.teacher search</field>
+            <field name="model">devwebinars.teacher</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="dni"/>
+                    <field name="technology"/>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.course_search">
+            <field name="name">devwebinars.course search</field>
+            <field name="model">devwebinars.course</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="classroom"/>
+                    <field name="technology"/>
+                    <field name="teacher"/>
+                    <field name="start_date"/>
+                    <field name="end_date"/>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.technology_search">
+            <field name="name">devwebinars.technology search</field>
+            <field name="model">devwebinars.technology</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="devwebinars.classroom_search">
+            <field name="name">devwebinars.classroom search</field>
+            <field name="model">devwebinars.classroom</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+
+        <!-- VISTA CALENDAR -->
+        <record model="ir.ui.view" id="devwebinars.course_calendar">
+            <field name="name">devwebianrs.course calendar</field>
+            <field name="model">devwebinars.course</field>
+            <field name="arch" type="xml">
+                <calendar string="Course calendar" date_start="start_date"
+                          date_stop="end_date"
+                          color="classroom">
+                    <field name="name"/>
+                </calendar>
+            </field>
+        </record>
+
+
+        <!-- Top menu item -->
+        <menuitem name="Courses" id="devwebinars.menu_course_list" parent="devwebinars.menu_1"
+                  action="devwebinars.action_course_window"/>
+
+        <menuitem name="Devwebinars" id="devwebinars.menu_root"/>
+        <!-- menu categories -->
+        <menuitem name="Management" id="devwebinars.menu_1" parent="devwebinars.menu_root"/>
+        <!-- actions -->
+
+        <menuitem name="Students" id="devwebinars.menu_student_list" parent="devwebinars.menu_1"
+                  action="devwebinars.action_student_window"/>
+
+        <menuitem name="Teachers" id="devwebinars.menu_teacher_list" parent="devwebinars.menu_1"
+                  action="devwebinars.action_teacher_window"/>
+
+
+        <menuitem name="Technologies" id="devwebinars.menu_technology_list" parent="devwebinars.menu_1"
+                  action="devwebinars.action_technology_window"/>
+
+        <menuitem name="Classrooms" id="devwebinars.menu_classroom_list" parent="devwebinars.menu_1"
+                  action="devwebinars.action_classroom_window"/>
+
+    </data>
+</odoo>
