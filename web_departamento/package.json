@@ -8,7 +8,12 @@
     "docs:build": "vuepress build .",
     "dev:clean-dev": "vuepress dev . --no-cache",
     "docs:dev": "vuepress dev .",
-    "docs:eject-theme": "vuepress eject-hope ."
+    "docs:eject-theme": "vuepress eject-hope .",
+    "start": "vuepress dev .",
+    "serve": "vuepress dev .",
+    "build": "vuepress build .",
+    "deploy": "sh ./deploy.sh",
+    "docs:deploy": "sh ./deploy.sh"
   },
   "repository": {
     "type": "git",
