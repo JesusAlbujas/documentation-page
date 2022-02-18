@@ -4,10 +4,10 @@
 set -e
 
 # borramos
-rm -rf .vuepress/dist
+rm -rf ./dist
 
 # build
 npm run build
 
 # cambiamos al directorio
-cd .vuepress/dist
+cd ./dist
