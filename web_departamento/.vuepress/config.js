@@ -30,7 +30,7 @@ module.exports = config({
     hostname: "https://informaticacifpvg.netlify.app/",
 
     author: "Informática y Comunicaciones",
-    //repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    repo: "https://github.com/CIFP-Virgen-de-Gracia/inf_com_dep_CIFP_VG",
 
     nav: [
       { text: "Home", link: "/", icon: "home" },

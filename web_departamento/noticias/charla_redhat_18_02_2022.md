@@ -30,7 +30,7 @@ El [Departamento de Informática](/) del [CIFP Virgen de Gracia](https://cifpvir
 
 <!-- more -->
 
-Sebastian nos ha hablado de código abierto, las estrategias de negocio de esta forma de trabajo. Nos ha hablado también de la forma de trabajo en esta empresa y cómo se puede empezar a colaborar en proyectos opensource.
+ Sebastian nos ha hablado de código abierto, las estrategias de negocio de esta forma de trabajo. Nos ha hablado también de la forma de trabajo en esta empresa y cómo se puede empezar a colaborar en proyectos opensource.
 
 Nos ha dado ideas también sobre cómo el alumnado interesado puede comenzar a trabajar en opensource, qué roles existen en esta forma de trabajo no limitándose sólo a los roles relacionados con el desarrollo.
 
