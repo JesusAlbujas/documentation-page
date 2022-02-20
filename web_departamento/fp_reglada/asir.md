@@ -88,6 +88,12 @@ En este módulo aprenderás a configurar, administrar y mantener sistemas inform
 
 En este módulo aprenderás todo lo relativo a las redes de ordenadores, diseño, implementación y mantenimiento, centrándonos en el uso de dispositivos CISCO por la gran relevancia que tienen estos en los sistemas de las empresas.
 
+Nuestros alumnos de primero te cuentan cómo trabajan:
+
+<p style="text-align:center;">
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/0CGoe_USwRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ### **Fundamentos de hardware**
 
 <p style="text-align:center;">

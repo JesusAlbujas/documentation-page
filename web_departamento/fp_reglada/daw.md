@@ -42,6 +42,12 @@ En este ciclo formativo de Grado Superior aprenderás a:
 Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.
 :::
 
+Nuestros alumnos de segundo te cuentan cómo trabajan:
+
+<p style="text-align:center;">
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/ttNLJejxEqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 Serás capaz de:
 
 - Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.
