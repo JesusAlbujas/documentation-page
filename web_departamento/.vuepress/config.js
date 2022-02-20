@@ -27,7 +27,7 @@ module.exports = config({
 
   themeConfig: {
     logo: "/assets/icon/logo03.png",
-    //hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    hostname: "https://informaticacifpvg.netlify.app/",
 
     author: "Informática y Comunicaciones",
     //repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",

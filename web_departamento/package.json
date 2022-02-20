@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igijon/inf_com_dep_CIFP_VG.git"
+    "url": "git+https://github.com/CIFP-Virgen-de-Gracia/inf_com_dep_CIFP_VG.git"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,7 @@
     "vuepress": "^1.8.2",
     "vuepress-theme-hope": "^1.13.1"
   },
-  "homepage": "https://github.com/igijon/inf_com_dep_CIFP_VG#readme",
+  "homepage": "https://github.com/CIFP-Virgen-de-Gracia/inf_com_dep_CIFP_VG#readme",
   "dependencies": {
     "vuepress": "^1.8.2"
   }
