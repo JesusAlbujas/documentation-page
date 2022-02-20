@@ -4,10 +4,8 @@
 set -e
 
 # borramos
-rm -rf ./dist
+rm -rf web_departamento/dist
 
 # build
 npm run build
 
-# cambiamos al directorio
-cd ./dist
