@@ -29,7 +29,7 @@ comment: false
 #### **¿Por qué estudiar TICs?**
 
 <p style="text-align:center;">
-<iframe width="80%" height="315" src="https://www.youtube.com/embed/2ryF-ds4yfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2ryF-ds4yfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 Porque es el trabajo del futuro, ya que en todas las empresas hay sistemas informáticos.
