@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Master-Mind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
+    <meta name="author" content="Arsenio">
+    <link rel="stylesheet" href="mastermind.css">
+    <script src="mastermind.js"></script>
+
+</head>
+
+<body onload="iniciaJuego()">
+    <div id="principal">
+        <div class="izqda">
+            <div id="encabezado" class="areaizqsup">
+                <div id="titulo">
+                    <h1>Master-Mind</h1>
+                </div>
+                <div id="mensajes">
+                    <p id="areamensajes" class="ptexto"></p>
+
+                </div>
+            </div>
+            <div id="controles" class="areaizqinf">
+
+                <div id="listaizq">
+                    <label for="posicion">Elegir posición:</label>
+                    <br>
+                    <select id="posicion" name="posicion">
+                        <option id="pos1" value="1">primera</option>
+                        <option id="pos2" value="2">segunda</option>
+                        <option id="pos3" value="3">tercera</option>
+                        <option id="pos4" value="4">cuarta</option>
+                    </select>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <button id="posboton" onclick="elegirFicha()">Elegir</button>
+                </div>
+                <div id="listadcha">
+                    <label for="color">Elegir color:</label>
+                    <br>
+                    <select id="color" name="color">
+                        <option id="color1" value="amarilla" selected>amarilla</option>
+                        <option value="azul">azul</option>
+                        <option value="magenta">magenta</option>
+                        <option value="naranja">naranja</option>
+                        <option value="roja">roja</option>
+                        <option value="verde">verde</option>
+                    </select>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <button id="colboton" onclick="evaluarFila()">Poner</button>
+                </div>
+            </div>
+            <!--
+            <div id="trampa" style="text-align: center;"></div>
+            -->
+        </div>
+
+        <div class="dcha">
+            <!--  -->
+
+            <div class="ficha" id="fil0col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil0col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil0col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil0col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines0">
+                <div class="pin" id="fila0pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila0pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila0pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila0pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil1col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil1col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil1col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil1col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines1">
+                <div class="pin" id="fila1pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila1pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila1pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila1pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil2col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil2col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil2col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil2col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines2">
+                <div class="pin" id="fila2pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila2pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila2pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila2pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil3col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil3col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil3col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil3col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines3">
+                <div class="pin" id="fila3pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila3pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila3pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila3pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil4col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil4col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil4col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil4col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines4">
+                <div class="pin" id="fila4pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila4pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila4pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila4pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil5col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil5col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil5col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil5col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines5">
+                <div class="pin" id="fila5pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila5pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila5pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila5pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil6col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil6col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil6col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil6col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines6">
+                <div class="pin" id="fila6pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila6pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila6pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila6pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil7col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil7col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil7col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil7col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines7">
+                <div class="pin" id="fila7pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila7pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila7pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila7pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil8col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil8col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil8col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil8col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines8">
+                <div class="pin" id="fila8pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila8pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila8pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila8pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+
+            <!--  -->
+
+            <div class="ficha" id="fil9col1" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil9col2" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil9col3" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="ficha" id="fil9col4" onclick="cambiaColorFicha(this.id)"><img src="ficha_translucida.png" alt="ficha_translucida" width="30px">
+            </div>
+            <div class="fichapin" id="pines9">
+                <div class="pin" id="fila9pin1"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila9pin2"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila9pin3"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+                <div class="pin" id="fila9pin4"><img src="pin_translucido.png" alt="pin" width="20px"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

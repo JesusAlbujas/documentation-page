@@ -25,9 +25,8 @@ El curso pasado, nuestros alumnos del curso **IFCD0210 Desarrollo de aplicacione
 
 Toda la información en [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/).
 <p style="text-align:center;">
-  <img src="/assets/img/Mastermind.jpg" width="100%"/>
+  <a href="/assets/MasterMind_app_sepecam/index.html"><img src="/assets/img/Mastermind.jpg" width="100%"/></a>
 </p>
 
 
 <!-- more -->
----

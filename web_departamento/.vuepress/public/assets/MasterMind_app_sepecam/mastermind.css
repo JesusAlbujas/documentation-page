@@ -1,0 +1,180 @@
+/* Estilo para version JavaScript del jego Master-Mind */
+
+@font-face {
+    font-family: "FrozenCrystalBold";
+    src: url(FrozenCrystalBold.woff);
+}
+
+@font-face {
+    font-family: "FrozenCrystalItalic";
+    src: url(FrozenCrystalItalic.woff);
+}
+
+@font-face {
+    font-family: "led_counter-7";
+    src: url(led_counter-7.woff);
+}
+
+@font-face {
+    font-family: "led_counter-7_italic";
+    src: url(led_counter-7_italic.woff);
+}
+
+body {
+    background: lightgrey;
+}
+
+#principal {
+    max-width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: lightsteelblue;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 15px;
+    min-width: 900px;
+    overflow-x: scroll;
+}
+
+.izqda{
+    width: 48%;
+    height: 45rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#titulo {
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-family: FrozenCrystalBold;
+
+}
+
+#mensajes {
+    width: 90%;
+    height: 10rem;  
+    margin: auto;
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+#areamensajes {
+    font-family: led_counter-7;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#controles {
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: .5rem;
+    margin: auto;
+}
+
+label {
+    font-family: FrozenCrystalItalic;
+    color: darkblue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+select {
+    font-family: led_counter-7_italic;
+    font-size: x-large;
+    font-weight: bold;
+    border-style: double;
+    border-color: darkblue;
+    border-width: 5px;
+    padding: 0rem 1rem;
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: darkblue;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: FrozenCrystalItalic;
+    margin-left: 1.4rem;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+button:active {
+    background-color: lightblue;
+    box-shadow: 0 5px gray;
+    transform: translateY(4px);
+}
+
+.dcha {
+    width: 48%;
+    height: 45rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.ficha {
+    background-color: whitesmoke;
+    width: 4rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.fichapin {
+    background-color: whitesmoke;
+    width: 8.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Parpadeo de Texto */
+.blinking {
+    animation: blinkingText 3s infinite;
+}
+@keyframes blinkingText {
+    0% {
+        color: #000;
+    }
+    49% {
+        color: transparent;
+    }
+    60% {
+        color: red;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: #000;
+    }
+}
