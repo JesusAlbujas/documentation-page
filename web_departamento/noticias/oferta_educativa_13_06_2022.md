@@ -23,11 +23,11 @@ sidebar: false
 ¡Matricúlate!
 
 <p style="text-align:center;">
-  <a href="https://cifpvirgendegracia.com"><img src="/assets/triptico/triptico1.png" width="100%"/></a>
+  <a href="https://cifpvirgendegracia.com"><img src="/assets/img/triptico/triptico1.png" width="100%"/></a>
 </p>
 
 <p style="text-align:center;">
-  <a href="https://cifpvirgendegracia.com"><img src="/assets/triptico/triptico2.png" width="100%"/></a>
+  <a href="https://cifpvirgendegracia.com"><img src="/assets/img/triptico/triptico2.png" width="100%"/></a>
 </p>
 
 <!-- more -->
